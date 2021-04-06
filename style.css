@@ -20,14 +20,19 @@ body {
   color: hsl(229, 23%, 23%);
 }
 
+#age,
 .loc,
 .sub {
   font-weight: 400;
   color: hsl(227, 10%, 46%);
 }
 
-.sub {
+.loc {
   font-size: 14px;
+}
+
+.sub {
+  font-size: 12px;
 }
 
 /*******************Layout*******************/
@@ -86,6 +91,7 @@ body {
 }
 
 .loc {
+  margin-top: 10px;
   line-height: 0;
 }
 
@@ -97,13 +103,18 @@ body {
 }
 
 .main-stats {
-  margin-top: 25px;
+  margin: 40px 20px 0px;
 }
 
 .sub-stats {
-  margin-top: 0px;
+  margin: 0px 25px 0px 20px;
 }
 
 .sub {
-  margin-top: 5px;
+  padding-right: 15px;
+  margin-top: 4px;
+}
+
+#age {
+  margin-left: 5px;
 }
