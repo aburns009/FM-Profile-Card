@@ -26,6 +26,10 @@ body {
   color: hsl(227, 10%, 46%);
 }
 
+.sub {
+  font-size: 14px;
+}
+
 /*******************Layout*******************/
 .back {
   background-color: hsl(185, 75%, 39%);
@@ -98,4 +102,8 @@ body {
 
 .sub-stats {
   margin-top: 0px;
+}
+
+.sub {
+  margin-top: 5px;
 }
