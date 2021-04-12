@@ -37,6 +37,7 @@ body {
 
 /*******************Layout*******************/
 .back {
+  position: relative;
   background-color: hsl(185, 75%, 39%);
   height: 100vh;
   overflow: hidden;
@@ -47,23 +48,24 @@ body {
 
 .circle {
   position: absolute;
+  margin: 10em;
 }
 
 .top {
-  top: 0;
-  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 7em;
 }
 
 .bottom {
-  bottom: 0;
-  right: 0;
+  top: 10;
+  left: 10;
 }
 
 .card {
   position: relative;
   display: flex;
   flex-direction: column;
-  z-index: 1;
   text-align: center;
   background-color: white;
   width: 335px;
@@ -108,6 +110,7 @@ body {
 
 .sub-stats {
   margin: 0px 25px 0px 20px;
+  gap: 20px;
 }
 
 .sub {
