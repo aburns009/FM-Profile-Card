@@ -44,11 +44,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: -2;
 }
 
 .circle {
   position: absolute;
   margin: 10em;
+  z-index: -1;
 }
 
 .top {
